@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="MobilnaAplikacija.SecondPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MobilnaAplikacija"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="94,36,0,0" TextWrapping="Wrap" Text="Pozdravljeni" VerticalAlignment="Top" FontSize="28"/>
+
+        <TextBlock x:Name="txtB_FromMainPage" HorizontalAlignment="Left" Margin="247,39,0,0" TextWrapping="Wrap" Text="*" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="0.5,1.859" Width="180"/>
+
+        <Button x:Name="btn_GoBack" Content="Go back to main page" HorizontalAlignment="Center" Margin="0,920,0,0" VerticalAlignment="Top" Width="180"/>
+
+        <TextBlock FontSize="40" x:Name="result_lbl" HorizontalAlignment="Center" Width="360" Height="60" Text="*"/>
+    </Grid>
+</Page>
